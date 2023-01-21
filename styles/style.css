@@ -9,7 +9,7 @@ body {
     background-color: #0F0F10;
     color: #F2F2F3;
     font-family: 'Poppins';
-font-style: normal;
+    font-style: normal;
 }
 
 a {
@@ -71,28 +71,76 @@ header {
 .page {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 .text {
     margin-top: 130px;
 }
 
-.on-ear {
+.On-ear {
     font-weight: 600;
     font-size: 120px;
+    line-height: 96px;
+    padding-left: 52px;
+    background: linear-gradient(180deg, #403B3E 0%, #242526 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .text>h2 {
     font-weight: 600;
-font-size: 64px;
+    font-size: 64px;
+    color: #F2F2F3;
 }
 
 .text>h3 {
     font-weight: 600;
-font-size: 20px;
+    font-size: 20px;
+    color: #F2F2F3;
+    margin-top: 38px;
 }
 
 .text>p {
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #BDC0C2;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+.basket {
+    background: #1E1E21;
+    padding: 16px 22px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    gap: 13px;
+    margin-top: 39px;
+    align-items: center;
+}
+
+.add {
+    font-weight: 400;
+font-size: 15px;
+color: #fff;
+}
+
+.number {
+    font-weight: 700;
+font-size: 20px;
+color: #fff;
+}
+
+.applications {
+margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.applications>img {
+    object-fit: contain;
 }
