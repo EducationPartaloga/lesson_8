@@ -39,5 +39,6 @@ text-decoration: none;
 }
 
 .navigation>menu>li>a:hover {
-
+color: rgb(160, 177, 177);
+transition: 2s;
 }
