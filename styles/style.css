@@ -1,0 +1,43 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F0F10;
+    color: #F2F2F3;
+}
+
+a {
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.navigation>menu {
+    list-style: none;
+    display: flex;
+}
+
+.navigation>menu>li>a {
+padding: 20px 25px;
+font-weight: 700;
+font-size: 16px;
+text-decoration: none;
+}
+
+.navigation>menu>li>a:hover {
+
+}
