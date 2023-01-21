@@ -51,7 +51,7 @@ text-decoration: none;
     
     font-weight: 400;
     font-size: 15px;
-    line-height: 22px;
+  
     padding: 16px 57px;
     border-radius: 8px;
     background: #1E1E21;
@@ -59,6 +59,11 @@ text-decoration: none;
     right: -230px;
     top: -50%;
     width: 156px;
-height: 55px;
-text-align: center;
+    height: 55px;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    width: 100%;
 }
