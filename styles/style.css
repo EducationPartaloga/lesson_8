@@ -190,6 +190,13 @@ text-fill-color: transparent;
     justify-self: end;
 }
 
+.bluetooth {
+    margin-left: 25px
+}
+
+.microphone {
+    margin-left: 25px
+}
 
 
 
